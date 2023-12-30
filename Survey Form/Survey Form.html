@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+			<title>Exercise Survey</title>
+		</head>
+		<body>
+			<div id="main-container">
+			<header>
+				<h1 id="title">Exercise Survey</h1>
+				<p id="description"><strong>Help us understand the exercise patterns of Americans!</strong>
+<br></br>
+This survey will take no more than 3 minutes of your time, and your input is essential. <br></br>Please answer each question honestly to help us get the most accurate results. Thank you for your participation!</p>
+				<hr>
+			</header>
+			
+			<main id="main">
+				<form id="survey-form">
+					<div id="name-email-age">
+					<label id="name-label" for="name">
+					<sup class="red">* </sup>Name <input id="name" type="text" placeholder="Enter your full name" required>
+					</label>
+					<label id="email-label" for ="email">
+						<sup class="red">* </sup>Email <input id="email" type="email" placeholder="Enter your Email" required>
+					</label>
+					<label id="number-label" for="number">
+						<sup class="red">* </sup>Age <input id="number" type="number" placeholder="Enter Your Age" min="1" max="120" required>
+					</label>
+					</div>
+					<p class="question"><sup class="red">* </sup>1. Have you exercised within the last year?</p>
+					<select aria-label="State" id="dropdown" required>
+						<option disabled selected value>Select</option>
+						<option value="0">Yes</option>
+						<option value="1">No</option>
+					</select>
+					<p class="question"><sup class="red">* </sup>2. If yes, how frequently did you exercise on average?</p>
+					<label for="frequency-radio-button" value="0">
+						<input class="frequency-radio-button" value="1" type="radio" name="frequency-radio-button" value="2" checked> Less than once a month
+					</label>
+						<label for="frequency-radio-button" value="3">	
+						<input class="frequency-radio-button" value="4" type="radio" name="frequency-radio-button" value="5"> Once a month
+					</label>
+						<label for="frequency-radio-button" value="6">	
+						<input class="frequency-radio-button" value="7" type="radio" name="frequency-radio-button" value="8"> Once a week
+					</label>
+						<label for="frequency-radio-button" value="9">
+						<input class="frequency-radio-button" value="10" type="radio" name="frequency-radio-button" value="11"> Several times a week
+					</label>
+						<label for="frequency-radio-button" value="12">
+						<input class="frequency-radio-button" value="13" type="radio" name="frequency-radio-button" value="14"> Every day
+					</label>
+						<label for="frequency-radio-button" value="15">
+						<input class="frequency-radio-button" value="16" type="radio" name="frequency-radio-button" value="17"> I haven't exercised in the last year
+					</label>
+					<p class="question"><sup class="red">* </sup>3. How long were your workouts on average?</p>
+					<label for="workout-length-radio-button" value="18">
+						<input class="workout-length-radio-button" value="19" type="radio" name="workout-length-radio-button" value="20" checked> Less than 15 minutes
+					</label>
+					<label for="workout-length-radio-button" value="21">
+						<input class="workout-length-radio-button" value="22" type="radio" name="workout-length-radio-button" value="23"> 15 minutes
+					</label>
+					<label for="workout-length-radio-button" value="24">
+						<input class="workout-length-radio-button" value="25" type="radio" name="workout-length-radio-button" value="26"> 20 minutes
+					</label>
+					<label for="workout-length-radio-button" value="27">
+						<input class="workout-length-radio-button" value="28" type="radio" name="workout-length-radio-button" value="29"> 30 minutes
+					</label>
+					<label for="workout-length-radio-button" value="30">
+						<input class="workout-length-radio-button" value="31" type="radio" name="workout-length-radio-button" value="32"> 40 minutes
+					</label>
+					<label for="workout-length-radio-button" value="33">
+						<input class="workout-length-radio-button" value="34" type="radio" name="workout-length-radio-button" value="35"> 50 minutes
+					</label>
+					<label for="workout-length-radio-button" value="36">
+						<input class="workout-length-radio-button" value="37" type="radio" name="workout-length-radio-button" value="38"> 1 hour
+					</label>
+					<label for="workout-length-radio-button" value="39">
+						<input class="workout-length-radio-button" value="40" type="radio" name="workout-length-radio-button" value="41"> More than 1 hour
+					</label>
+					<p class="question" id="optional">OPTIONAL: 4. What types of exercises did you do? (Check all that apply)</p>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="aerobics"> Aerobics
+					</label>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="yoga"> Yoga
+					</label>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="weightlifting"> Weightlifting
+					</label>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="martial-arts-mma"> Martial Arts/MMA
+					</label>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="running"> Running
+					</label>
+					<label for="workout-type-checkbox">
+					<input class="workout-type-checkbox" type="checkbox" name="workout-type-checkbox" value="other"> Other (Please specify)
+					<input id="other-specify-input" type="text" name="workout-type-checkbox">	
+					</label>
+					<p class="question">5. Do you have any comments about this survey? What improvements can be made?</p>
+					<textarea id="comments-text-area" rows="6" columns="16" placeholder="Enter comments here..."></textarea>
+					<button id="submit" type="submit">Submit</button>
+				</form>
+			</main>
+		</div>
+    <link rel="stylesheet" href="Survey Form.css">
+		</body>
+	</html>

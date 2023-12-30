@@ -1,0 +1,140 @@
+body {
+	background-image: linear-gradient(to right, #25cd36 , #000000);
+	font-family: Arial;
+}
+
+form {
+	text-align: left;
+}
+
+#main-container {
+	width: 55%;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: solid black 2px;
+	padding: 20px;
+}
+
+#title {
+	text-align: center;
+	font-size: 3em;
+}
+
+#description {
+	text-align: justify;
+}
+
+hr {
+	border: solid rgba(3, 1, 1, 0.6) 1px;
+}
+
+.red {
+	color: red;
+	font-size: 12px;
+}
+
+#name-email-age {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-top:20px;
+	width: 100%;
+}
+
+#name, #email, #number {
+	width: 60%;	
+}
+
+#number {
+	margin-left: 13px;
+	padding-right: -2px;
+}
+
+input {
+    border: solid rgba(3, 1, 1, 0.6) 1.5px;
+	  border-radius: 5px;
+    padding: 8px 15px;
+    margin: 8px 0;
+}
+
+.question {
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+#dropdown {
+	margin-left: 29px;
+	width: 100px;
+	border: solid 1.5px;
+	background-color: white;
+	text-align: center;
+	display: inline;
+}
+
+label {
+	display: block;
+}
+
+.frequency-radio-button  {
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: 30px;
+}
+
+.workout-length-radio-button {
+	margin-right: 3px;
+	margin-left: 30px;
+}
+
+#optional {
+	padding-left: 5px;
+}
+
+.workout-type-checkbox {
+	display: inline;
+	margin-right: 3px;
+	margin-left: 30px;
+}
+
+#other-specify-input {
+	margin: 0;
+}
+
+#comments-text-area {
+	border: solid rgba(3, 1, 1, 0.6) 1.5px;
+	border-radius: 5px;
+	width: 95%;
+	padding: 5px;
+}
+
+#submit {
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	width: 100px;
+	height: auto;
+	font-size: 1.1em;
+	border: solid rgba(3, 1, 1, 0.6) 1.9px;
+	border-radius: 5px;
+	background-color: #25cd36;
+}
+
+#submit:hover {
+	background-color: rgb(6, 203, 243);
+}
+
+@media (max-width: 900px){
+	#comments-text-area {
+		width: 98%;
+		margin-left: 0px;
+	}
+	
+	#other-specify-input {
+		width: 90%;
+	}
+	
+}
+
+
+

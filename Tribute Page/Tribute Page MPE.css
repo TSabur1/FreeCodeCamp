@@ -1,0 +1,44 @@
+#main {
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #dddbdb;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #title {
+    text-align: center;
+  }
+  #main > p {
+    text-align: center;
+  }
+  
+  #tribute-info {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #tribute-info > h3 {
+    text-align: center;
+  }
+  #tribute-info > ul li {
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  strong {
+    font-size: bold;
+  }
+  
+  #img-div {
+    height: auto;
+  }
+  
+  #image {
+    display: block;
+    max-width: 50%;
+    text-align: center;
+  }

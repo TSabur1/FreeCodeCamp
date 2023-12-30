@@ -1,0 +1,21 @@
+#nav-bar {
+    position: fixed;
+    top: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  @media screen and (min-width: 200px) { 
+    body {
+    background-color: #00beef;
+    background-image: url("paper.gif");
+  }
+  }
+  .flex {
+    display:flex;
+  }
+  .section {
+    margin: 10px;
+  }
